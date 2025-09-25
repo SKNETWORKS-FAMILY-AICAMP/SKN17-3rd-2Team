@@ -145,12 +145,12 @@
 # 🔟 진행 과정 중 프로그램 개선 노력
 😒개선 전 문제점
 - Chunk내의 문맥이 유지 되지 않고, Chunk size가 적절하지 않아 응답의 질이 많이 떨어짐
- **해결 방법** :
-  <details>
+ **해결 방법** : <details>
   <summary>1.Chunking</summary> 
- RecursiveSplitter를 사용하면 chunk 안의 내용의 문맥이 이어지지 않는 경우가 많음
- 먼저 SemanticChunker를 이용해 chunk 안의 내용의 문맥을 유지하게 만든 후, chunk size가 크다면 RecursiveSplitter를 이용해 chunk size를 줄이는 작업을 진행
+  RecursiveSplitter를 사용하면 chunk 안의 내용의 문맥이 이어지지 않는 경우가 많음
+  먼저 SemanticChunker를 이용해 chunk 안의 내용의 문맥을 유지하게 만든 후, chunk size가 크다면 RecursiveSplitter를 이용해 chunk size를 줄이는 작업을 진행
 </details>
+  
 - Vector DB 내에 유사한 문서들이 많이 존재해 원하는 문서를 가져오지 않음
 - 핵심 키워드 (예: 주소 정보; '강동구')를 감지 하지 못해 Hallucination이 발생
 - Chat history가 계속 쌓여 나감에 따라, 프롬프트 길이가 증가해 응답 속도 저하 및 토큰 비용 증가함
