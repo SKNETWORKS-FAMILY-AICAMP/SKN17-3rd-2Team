@@ -7,9 +7,8 @@
 ## 팀원 소개 
 | 김주서 | 김태완 | 성기혁 | 양송이 | 임산별 |
 |:---:|:---:|:---:|:---:|:---:|
-|![김주서](img/KakaoTalk_20250925_111729446_02.jpg)|![김태완](img/KakaoTalk_20250925_111729446_03.jpg)|![성기혁](img/KakaoTalk_20250925_111729446_04.jpg)|![양송이](img/KakaoTalk_20250925_111729446_01.jpg)|![임산별](img/KakaoTalk_20250925_111729446.jpg)|
-|[@kimjuseo71](https://github.com/kimjuseo71)|[@Kicangel](https://github.com/Kicangel)|[@venus241004](https://github.com/venus241004)|[@songeeeey](https://github.com/songeeeey)|[@ImMountainStar](https://github.com/ImMountainStar)|
-
+| <img src="img/KakaoTalk_20250925_111729446_02.jpg" width="120"/> | <img src="img/KakaoTalk_20250925_111729446_03.jpg" width="120"/> | <img src="img/KakaoTalk_20250925_111729446_04.jpg" width="120"/> | <img src="img/KakaoTalk_20250925_111729446_01.jpg" width="120"/> | <img src="img/KakaoTalk_20250925_111729446.jpg" width="120"/> |
+| [@kimjuseo71](https://github.com/kimjuseo71) | [@Kicangel](https://github.com/Kicangel) | [@venus241004](https://github.com/venus241004) | [@songeeeey](https://github.com/songeeeey) | [@ImMountainStar](https://github.com/ImMountainStar) |
 <br>
 
 # 2️⃣ 프로젝트 개요 
