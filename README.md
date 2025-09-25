@@ -8,8 +8,7 @@
 | 김주서 | 김태완 | 성기혁 | 양송이 | 임산별 |
 |:---:|:---:|:---:|:---:|:---:|
 |  |  |  |  | |
-|[@Subin-Ju](https://github.com/Subin-Ju)||[@minjeon](https://github.com/minjeon)|[@use08168](https://github.com/use08168)|[@ImMountainStar](https://github.com/ImMountainStar)|
-|[@](https://github.com/Subin-Ju)||[@Kicangel](https://github.com/Kicangel)|[@use08168](https://github.com/use08168)|[@ImMountainStar](https://github.com/ImMountainStar)|
+|[@Subin-Ju](https://github.com/Subin-Ju)||[@Kicangel](https://github.com/Kicangel)||[@minjeon](https://github.com/minjeon)|[@use08168](https://github.com/use08168)|[@ImMountainStar](https://github.com/ImMountainStar)|
 
 
 # 2️⃣ 프로젝트 개요 
@@ -137,7 +136,7 @@
 - Chorma DB에 저장하여 RAG 시스템에 연결
 - 파일 형식 별 데이터 변환 및 Chunking
 1. .docx
-- SementicChunker로 문맥 단위로 분할 후, 문단 및 줄 바꿈 기준으로, 문장 단위로 분할
+- SementicChunker로 문맥 단위로 분할 후, RecursiveSplitter를 이용해 문단 및 줄 바꿈 기준으로, 문장 단위로 분할
 2. .xlsx
 - 테이블 형식의 데이터를 JSON 형식으로 변환 후, 각 행을 기준으로 분할
 
