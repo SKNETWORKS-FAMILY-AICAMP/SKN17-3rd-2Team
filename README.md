@@ -146,14 +146,14 @@
 😒개선 전 문제점
 - Chunk내의 문맥이 유지 되지 않고, Chunk size가 적절하지 않아 응답의 질이 많이 떨어짐<br>
 <b>해결 방법</b> : <details>
-  <summary>1.Chunking</summary> 
-  RecursiveSplitter를 사용하면 chunk 안의 내용의 문맥이 이어지지 않는 경우가 많음 <br>
-  먼저 SemanticChunker를 이용해 chunk 안의 내용의 문맥을 유지하게 만든 후, chunk size가 크다면 RecursiveSplitter를 이용해 chunk size를 줄이는 작업을 진행
+  <summary>Chunking</summary> 
+  - RecursiveSplitter를 사용하면 chunk 안의 내용의 문맥이 이어지지 않는 경우가 많음 <br>
+  - 먼저 SemanticChunker를 이용해 chunk 안의 내용의 문맥을 유지하게 만든 후, chunk size가 크다면 RecursiveSplitter를 이용해 chunk size를 줄이는 작업을 진행
 </details>
 
 - Vector DB 내에 유사한 문서들이 많이 존재해 원하는 문서를 가져오지 않음 <br>
-<b>해결 방법</b> : <details>
-  <summary>2.벡터 DB Collection 활용</summary>
+<b>해결 방법</b> <details>
+  <summary>벡터 DB Collection 활용</summary>
  내용이 비슷한 문서 데이터 (신혼/신생아1 매입임대_모집공고문, 신혼/신생아2 매입임대_모집공고문)를 한 Collection 안에 저장할 경우, 잘못된 데이터를 가져오는 경우가 발생<br>
  또한 공실 데이터 문서 내에 단순 주소 데이터만 존재하기 때문에, 각 문서들을 특정할 수 없어 잘못된 데이터를 가져오는 경우가 발생 <br>
  따라서, 같은 자격 유형에 따라 Collection으로 분리한뒤 해당하는 문서 데이터들을 저장함으로서, 환각 현상 및 잘못된 데이터 로드 현상을 해결함 <br>
