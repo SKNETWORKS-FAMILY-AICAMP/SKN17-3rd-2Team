@@ -130,7 +130,7 @@
 [전처리 결과]
 
 # 8️⃣ DB 연동 구현 코드
-[Vector DB]
+[Vector DB](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN17-3rd-2Team/blob/main/Embedding)
 # 9️⃣ 테스트 계획서 및 결과서 
 
 # 🔟 진행 과정 중 프로그램 개선 노력
