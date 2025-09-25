@@ -40,14 +40,13 @@
 -  맞춤형 정보 접근성의 한계
 -   청약 프로세스의 복잡성
 <br>
-<br>
 
 ## 2.4 프로젝트 목적 
 - 주택청약 공식 문서 데이터 기반의 대화를 통해 정확하고 신뢰도 높은 정보 제공
 - 사용자와의 대화 메모리를 통해 개인 조건에 적합한 공고 및 청약 매물 , 주거 지원 정책 추천
 - 사용자 맞춤형 공고 추천, 매물, 주거지원정책, 주택청약 기본정보 단계를 통합적으로 지원
 <br>
-<br>
+
 # 3️⃣ 기술스택 및 사용한 모델 
 
 # 4️⃣ 시스템 아키텍쳐
@@ -131,7 +130,18 @@
 [전처리 결과]
 
 # 8️⃣ DB 연동 구현 코드
-[Vector DB](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN17-3rd-2Team/blob/main/Embedding)
+📂[벡터 DB](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN17-3rd-2Team/blob/main/Embedding)
+
+## 💬 DB 구현 요약
+- OpenAI Embedding 모델 사용
+- Chorma DB에 저장하여 RAG 시스템에 연결
+- 파일 형식 별 데이터 변환 및 Chunking
+1. 모집 공고, 대출 문서 (.docx)
+- SementicChunker로 문맥 단위로 분할 후, 문단 및 줄 바꿈 기준으로, 문장 단위로 분할
+<br>
+2. 주택 공실 데이터 (.xlsx)
+- 테이블 형식의 데이터를 JSON 형식으로 변환 후, 각 행을 기준으로 분할
+
 # 9️⃣ 테스트 계획서 및 결과서 
 
 # 🔟 진행 과정 중 프로그램 개선 노력
