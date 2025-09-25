@@ -8,7 +8,7 @@
 | 김주서 | 김태완 | 성기혁 | 양송이 | 임산별 |
 |:---:|:---:|:---:|:---:|:---:|
 |  |  |  |  | |
-|[@Subin-Ju](https://github.com/Subin-Ju)||[@Kicangel](https://github.com/Kicangel)||[@minjeon](https://github.com/minjeon)|[@use08168](https://github.com/use08168)|[@ImMountainStar](https://github.com/ImMountainStar)|
+|[@Subin-Ju](https://github.com/Subin-Ju)|[@Kicangel](https://github.com/Kicangel)|[@minjeon](https://github.com/minjeon)|[@use08168](https://github.com/use08168)|[@ImMountainStar](https://github.com/ImMountainStar)|
 
 
 # 2️⃣ 프로젝트 개요 
