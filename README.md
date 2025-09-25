@@ -150,7 +150,7 @@
 - OpenAI Embedding 모델 사용
 - Chorma DB에 저장하여 RAG 시스템에 연결
 - 파일 형식 별 데이터 변환 및 Chunking
-1. .docx
+1. .docx, pdf
 - SementicChunker로 문맥 단위로 분할 후, RecursiveSplitter를 이용해 문단 및 줄 바꿈 기준으로 분할
 
 2. .xlsx
