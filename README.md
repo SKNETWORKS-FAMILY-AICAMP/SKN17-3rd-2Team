@@ -7,7 +7,7 @@
 ## 팀원 소개 
 | 김주서 | 김태완 | 성기혁 | 양송이 | 임산별 |
 |:---:|:---:|:---:|:---:|:---:|
-| | | | | |
+|![김주서](img/KakaoTalk_20250925_111729446_02.jpg)|![김태완](img/KakaoTalk_20250925_111729446_03.jpg)|![성기혁](img/KakaoTalk_20250925_111729446_04.jpg)|![양송이](img/KakaoTalk_20250925_111729446_01.jpg)|![임산별](img/KakaoTalk_20250925_111729446.jpg)|
 |[@kimjuseo71](https://github.com/kimjuseo71)|[@Kicangel](https://github.com/Kicangel)|[@venus241004](https://github.com/venus241004)|[@songeeeey](https://github.com/songeeeey)|[@ImMountainStar](https://github.com/ImMountainStar)|
 
 <br>
@@ -48,7 +48,6 @@
 
 ## 🌝 사용자 페르소나 
 ![페스로나](img/per.png)
-
 #### 사용자 분석 
 - **Needs**: 강동구에서 대출 기반으로 보증금 1억 이하 안정적 주거 마련 원함
 - **Pain Points**: 복잡한 청약 제도와 정보 분산으로 본인 조건 확인이 어려움
@@ -326,7 +325,7 @@
   </tr>
   <tr>
     <td>임산별</td>
-    <td></td>
+    <td>LLM 모델에 최적화된 데이터 전처리부터 성능 향상을 위한 다양한 실험까지 진행하며, 기획 단계에서부터 실제 구현까지 전 과정을 직접 수행할 수 있었습니다.</td>
   </tr>
   <tr>
     <td>양송이</td>
@@ -334,6 +333,6 @@
   </tr>
   <tr>
     <td>김주서</td>
-    <td></td>
+    <td>데이터를 모으는 것보다 서로 다른 형태를 하나로 합치는 과정이 더 어려웠습니다. 그 과정을 보며 단순한 전처리 기술 적용이 아니라, 학습에 맞게 데이터를 나누고 설계하는 고민이 필요하다는 걸 느꼈습니다.</td>
   </tr>
 </table>
