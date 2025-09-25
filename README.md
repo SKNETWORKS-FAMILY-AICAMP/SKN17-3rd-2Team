@@ -10,25 +10,26 @@
 | | | | | |
 |[@kimjuseo71](https://github.com/kimjuseo71)|[@Kicangel](https://github.com/Kicangel)|[@venus241004](https://github.com/venus241004)|[@songeeeey](https://github.com/songeeeey)|[@ImMountainStar](https://github.com/ImMountainStar)|
 
-
+<br>
 # 2️⃣ 프로젝트 개요 
-## ✔️ 프로젝트 명
-청년과 신혼부부를 위한 주택청약 도우미 챗봇 
+## ✔️ 프로젝트 명 | 청년과 신혼부부를 위한 주택청약 도우미 챗봇
+ 
 
 ## ✔️ 프로젝트 소개 
-사용자가 복잡한 청약 절차를 손쉽게 이해하고, 본인 조건에 맞는 물량과 주거지원까지 바로 확인할 수 있는 통합형 챗봇 서비스
+사용자가 복잡한 청약 절차를 손쉽게 이해하고, 본인 조건에 맞는 물량과 주거지원까지 바로 확인할 수 있는 통합형 챗봇 서비스로, RAG 기반 구조를 활용하여 벡터DB와 한국어 특화 LLM을 연동함으로써 정책 문서·FAQ·공고문에서 근거를 검색하고 정확하고 신뢰도 높은 맞춤형 답변을 제공합니다.
 
 ## ✔️ 프로젝트 필요성 
-#### 프로젝트 배경 : 상황분석
-(1) 주택청약의 공급과 수요 증가 
+### (1) 프로젝트 배경 : 상황분석
+🏠 주택청약의 공급과 수요 증가 
 > **청약통장 가입자, 2년 9개월 만에 증가…·청약 혜택 확대 통했나**  
 > 3월 가입자 전월 대비 4435명 증가…
 > 3기 신도시 기대감  
 > 정부, 청년·신혼부부 청약 혜택 확대  
 >  
 > *박영규 기자, [이코노믹리뷰](https://www.econovill.com/news/articleView.html?idxno=693037), 2025.04.22 23:14*
-> 
-(2) 주택청약 제도의 복잡함으로 인한 사용자의 불편함 존재 
+>
+<br>
+😰 주택청약 제도의 복잡함으로 인한 사용자의 불편함 존재 
 - 잦은 제도 개편과 복잡한 공급방식 및 자격 요건으로 복잡도 증가
 - 다양한 공급방식과 공급처로 인해 정보가 산발적으로 존재함
 => 사용자의 주택청약 신청과정이 복잡함
@@ -38,18 +39,19 @@
 |---------------------------------|---------------------------------------|
 |[청약 절차 과정 ](https://hkpm.co.kr/%EC%95%84%ED%8C%8C%ED%8A%B8-%EC%9D%BC%EB%B0%98-%EB%B6%84%EC%96%91-%EC%B2%AD%EC%95%BD-%EC%A0%88%EC%B0%A8-%EC%88%9C%EC%84%9C-2024/)               | [청약 신청 및 가점 계산](https://news.bizwatch.co.kr/article/real_estate/2019/09/06/0001)                       |
 
-#### ✔️ 문제 상황 
+### (2) 문제 상황 
 -  맞춤형 정보 접근성의 한계
 -  청약 프로세스의 복잡성
 <br>
 
-## 사용자 페르소나 
-![페스로나](img/per.jpg)
+## 🌝 사용자 페르소나 
+![페스로나](img/per.png)
 
-### 사용자 분석 
+#### 사용자 분석 
 - **Needs**: 강동구에서 대출 기반으로 보증금 1억 이하 안정적 주거 마련 원함
 - **Pain Points**: 복잡한 청약 제도와 정보 분산으로 본인 조건 확인이 어려움
 - **Expected Value**: 내 상황에 맞는 청약 자격과 공고를 빠르게 추천받고 시간 절약
+<br>
 
 ## ✔️ 프로젝트 목적 
 - 주택청약 공식 문서 데이터 기반의 대화를 통해 정확하고 신뢰도 높은 정보 제공
@@ -58,17 +60,29 @@
 <br>
 
 # 3️⃣ 기술스택 및 사용한 모델 
+## ✔️ 기술스택
+| 카테고리 | 기술 스택 |
+|----------|-----------|
+| **사용 언어** | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
+| **임베딩 모델** | ![OpenAI](https://img.shields.io/badge/OpenAI%20Embedding-412991?style=for-the-badge&logo=openai&logoColor=white) |
+| **벡터 DB** | ![Chroma](https://img.shields.io/badge/Chroma-1A73E8?style=for-the-badge&logoColor=white) |
+| **LLM** | ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white) |
+| **프레임워크** | ![LangChain](https://img.shields.io/badge/LangChain-2E5D80?style=for-the-badge&logo=chainlink&logoColor=white) |
+| **인터페이스(UI)** | ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) |
+| **관리 및 협업** | ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white) ![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white) |
 
-**LLM 모델 선정 이유**
-### 💠사용된 LLM 모델 : ```heegyu/EEVE-Korean-Instruct-10.8B-v1.0-Q5_K_M.gguf```
+<br>
 
-### 💠모델 선택 이유
-1. **✅한국어 특화 성능**
+## ✔️ LLM 모델 및 선정 이유 
+### LLM 모델 : ```heegyu/EEVE-Korean-Instruct-10.8B-v1.0-Q5_K_M.gguf```
+
+### 모델 선택 이유
+** (1) 한국어 특화 성능**
     - 야놀자자가 개발한 **한국어 처리에 최적화된 모델**로써, 한국어 질의 및 응답에 강하다
     
 <br>
 
-2. **✅한국어 벤치·커뮤니티 성과**
+2. (2) 한국어 벤치·커뮤니티 성과**
     - EEVE 계열은 한국어 LLM 벤치에서 상위권으로 언급되어 왔고, 실사용 커뮤니티에서 다양한 응용 모델도 존재해 현업 적용 레퍼런스가 있다. 
 
 ---
@@ -77,24 +91,25 @@
 # 4️⃣ 시스템 아키텍쳐
 ![시스템 구조](img/sys.png)
 
-
+<br>
 # 5️⃣ WBS 
 ![WBS](img/wbs.png)
+<br>
 
 # 6️⃣ 요구사항명세서 
 ![요구사항명세서](img/need.png)
-
+<br>
 
 # 7️⃣ 데이터 소개 및 전처리 보고서 
 ## ✔️ 데이터 소개 <br>
-#### (1) 주택청약 공고문 
+### 데이터(1): 주택청약 공고문 
 - **데이터 출처** : [한국토지주택공사(LH)](https://www.lh.or.kr/main/)  
   *SH는 현재 모집중인 공고가 없으므로 제외함*
 - **데이터 수집 방법** : 문서 직접 다운로드
 
 [데이터 파일 목록]
 | 구분 | 파일명 | 데이터 형식 |
-|------|--------|-------------|
+|------|------------|-------------|
 | **청년 매입임대** | 25년 3차_청년 매입임대_모집공고문 | pdf |
 |  | 25년_3차_청년 매입임대_QnA | hwp |
 |  | 서울지역본부_청년매입임대_신청시_유의사항 | pdf |
@@ -114,20 +129,20 @@
    - 불필요한 별첨 파일 제거
    - 테이블 표 텍스트 형태 변환
    - 특수기호 제거
-2. 공급주맥 목록 파일
+2. 공급주택 목록 파일
   - 필요없는 칼럼(지자체, 주택열람일정) 제거
   - 각 칼럼을 메타데이터로 하는 json 형식변환
 
 <br>
 
-#### (2) 대출정보 데이터 
+### 데이터(2) 대출정보 데이터 
 - **데이터 출처** : 주택도시기금  
 - **데이터 설명** : [주택도시기금 사이트](https://nhuf.molit.go.kr/)  
 - **데이터 수집 방식** : 사이트 내 정보 문서화
 
 [데이터 목록]
 | 데이터명 | 데이터 형식 |
-| --- | --- |
+| -------------- | --- |
 | 1. 청년전용_보증부월세대출 | docx |
 | 2. 청년전용_버팀목전세자금 | docx |
 | 3. 신생아_특례_버팀목대출| docx |
@@ -146,16 +161,22 @@
 2. pdf파일 텍스트 변환
 3. 테이블 표 텍스트 형태로 변환
 
+<br>
 
-#### (3) 주택청약 FAQ 
+### 데이터(3) 주택청약 FAQ.pdf
 [전처리]
 1. 불필요 별첨 파일 제거
 2. 테이블 표 텍스트 형태로 변환
 3. { “Num”:””, ‘Quetsion’: “”, “Answer”:””} json 형태로 변환
 
+<br>
+
 ## ✔️ 전처리 결과 <br>
 ![전처리결과1](img/data1.png)
+<br>
 ![전처리결과1](img/data2.png)
+<br>
+
 
 # 8️⃣ DB 연동 구현 코드
 📂[벡터 DB](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN17-3rd-2Team/blob/main/Embedding)
@@ -222,7 +243,7 @@
 
 
 # 🔟 진행 과정 중 프로그램 개선 노력
-😒개선 전 문제점
+## 개선 전 문제점
 - Chunk내의 문맥이 유지 되지 않고, Chunk size가 적절하지 않아 응답의 질이 많이 떨어짐<br>
   <details>
   <summary> <b>해결 방법:</b> Chunking</summary> 
@@ -264,16 +285,24 @@
   독립 질문 : '강서구 아파트 보증금 정보를 알려줘'<br>
   효과 : 짧고 모호한 질문에 대해 응답의 질이 좋아진다 
 </details>
+<br>
+
   
 # ⭐ 기대 효과
 - 개인화된 상호작용 : 사용자 맥락을 반영해 맞춤형 주택 정보, 정책 및 대출 상품 제공
 - 접근성 확대 : 사용자 상황 및 주택 위치에 따라 달라지는 정보들과 데이터가 모여 있지 않아 검색의 복잡함을 간단한 인터페이스를 통해 필요한 정보에 쉽게 접근 가능
-  
+
+
+<br>
+
 # 🛠️향후 개선점
 1. 응답 속도 최적화
 2. 파인 튜닝 진행
 
+<br>
+
 # 12. 수행결과 (테스트/시연 페이지)
+<br>
 
 ## 🌈 팀원 한 줄 회고
 <table>
