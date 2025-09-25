@@ -1,18 +1,17 @@
 # SKN17-3rd-2Team
 ------
 # 1️⃣ 팀 소개 
-## 팀명 : ROOM MATE 
-" 팀  소개 " 
+## 팀명 : ROOM MATE 🏠
+사용자의 가장 가까운 주거 파트너가 되어 안정적인 시작을 도와주는 의미를 담았습니다.
 
 ## 팀원 소개 
-| 김주서 | 김태완 | 성기혁 | 양송이 | 임산별 |
+| 👨‍💻김주서 | 👨‍💻김태완 | 👨‍💻성기혁 | 👩‍💻양송이 | 👩‍💻임산별 |
 |:---:|:---:|:---:|:---:|:---:|
-|  |  |  |  | |
 |[@Subin-Ju](https://github.com/Subin-Ju)|[@Kicangel](https://github.com/Kicangel)|[@minjeon](https://github.com/minjeon)|[@use08168](https://github.com/use08168)|[@ImMountainStar](https://github.com/ImMountainStar)|
 
 
 # 2️⃣ 프로젝트 개요 
-## ✔️ 프로젝트 명 : 챗봇 이름 
+## ✔️ 프로젝트 명
 청년과 신혼부부를 위한 주택청약 도우미 챗봇 
 
 ## ✔️ 프로젝트 소개 
