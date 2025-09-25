@@ -136,10 +136,9 @@
 - OpenAI Embedding 모델 사용
 - Chorma DB에 저장하여 RAG 시스템에 연결
 - 파일 형식 별 데이터 변환 및 Chunking
-1. 모집 공고, 대출 문서 (.docx)
+1. .docx
 - SementicChunker로 문맥 단위로 분할 후, 문단 및 줄 바꿈 기준으로, 문장 단위로 분할
-<br>
-2. 주택 공실 데이터 (.xlsx)
+2. .xlsx
 - 테이블 형식의 데이터를 JSON 형식으로 변환 후, 각 행을 기준으로 분할
 
 # 9️⃣ 테스트 계획서 및 결과서 
