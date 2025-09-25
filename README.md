@@ -232,6 +232,8 @@
 
 ## 2. 테스트 결과서
 
+[🍎 테스트 계획서 및 결과서](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN17-3rd-2Team/blob/main/Desktop/SKN17/3%EC%B0%A8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/test/%ED%85%8C%EC%8A%A4%ED%8A%B8%EA%B3%84%ED%9A%8D%EC%84%9C%20%EB%B0%8F%20%EA%B2%B0%EA%B3%BC%20%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf)
+
 ### 2.1 테스트 결과 표
 
 | **질문번호** | **사용자 조건 맞춤형 답변** | **응답의 일관성** | **응답속도** | **Answer Relevance** | **Answer Correctness** | **Groundedness** | **종합결과** | **결함 여부** | **결함 사유** |
